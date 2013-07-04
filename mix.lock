@@ -1,0 +1,9 @@
+[ "cowboy": {:git,"https://github.com/extend/cowboy.git","39caf34fe3bc0a3c89ac8a06428542555f8e13c1",[]},
+  "dynamo": {:git,"https://github.com/elixir-lang/dynamo.git","a48dc5118c6f5b4b0f131d8af112345505cdb158",[]},
+  "ex_doc": {:git,"https://github.com/elixir-lang/ex_doc.git","4bc1e9af619fd98e51479cbe09157ff831b0d4e1",[]},
+  "hackney": {:git,"https://github.com/benoitc/hackney.git","6f9b403602371bc3d4aa0b67b1e253b105075bcf",[]},
+  "jsex": {:git,"https://github.com/talentdeficit/jsex.git","816d2f2e94638b4f5a05a0ac4ad3afdac75feb15",[]},
+  "jsx": {:git,"https://github.com/talentdeficit/jsx.git","352d6b21cbec4fe1b66bc7ce3ded67a3b32add2c",[tag: "v1.4.2"]},
+  "link_shrinkex": {:git,"https://github.com/jonahoffline/link_shrinkex.git","adbbe549bcada0326548f73db7e7786f4bc1d56a",[]},
+  "mimetypes": {:git,"https://github.com/spawngrid/mimetypes.git","47d37a977a7d633199822bf6b08353007483d00f",[]},
+  "ranch": {:git,"git://github.com/extend/ranch.git","4f70a16bbe08e446e8fec248ca345d5f8e7df038",[ref: "0.8.4"]} ]

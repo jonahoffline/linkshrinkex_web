@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LinkShrinkex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/static/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <a href="https://github.com/jonahoffline/linkshrinkex_web">
+      <img id="github" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+    <div id="wrap">
+      <div class="container">
+        <h1>Link Shrinkex</h1>
+        <p>Create a short URL using Google's URL Shortener API.</p>
+        <br>
+
+        <form class="form-inline" method="post" action="/">
+          <div class="control-group">
+            <input type="text" name="url" placeholder="long url" class="input-xxlarge" value="<%= conn.params[:url] %>">
+            <input type="submit" value="Shrink it!" class="btn btn-primary">
+          </div>
+        </form>
+        
+        <pre><p class="lead text-center"><a href="<%= @short_link %>" target="_blank"><%= @short_link %></a></p></pre>
+        <hr>
+
+        <p class="lead">This simple WebApp was built using <a href="https://github.com/elixir-lang/dynamo">Dynamo</a> and the <a href="http://www.elixir-lang.org">Elixir</a> language.</p>
+        <p>Modules used :</p>
+
+        <ul>
+          <li><a href="http://www.github.com/jonahoffline/link_shrinkex">link_shrinkex</a> (Elixir)</li>
+          <li><a href="https://github.com/talentdeficit/jsex">jsex</a> (Elixir)</li>
+          <li>inet/ssl (Erlang)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2013 <a href="http://www.pixelhipsters.com">Jonah Ruiz</a></p>
+      </div>
+    </div>
+  </body>
+</html>
