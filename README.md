@@ -2,7 +2,7 @@
 
 
 A simple WebApp for creating short URLs using Google's URL Shortener API.
-Written in Elixir and uses Dynamo Framework to serve web requests.
+Built using Elixir and the Dynamo Web Framework.
 
 * [Elixir Language](http://elixir-lang.org/)
 * [Dynamo Framework](https://github.com/elixir-lang/dynamo)
