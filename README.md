@@ -7,6 +7,9 @@ Built using Elixir and the Dynamo Web Framework.
 * [Elixir Language](http://elixir-lang.org/)
 * [Dynamo Framework](https://github.com/elixir-lang/dynamo)
 
+![LinkShrinkex
+Screenshot](http://pixelhipsters.com/img/linkshrinkex_screen.png)
+
 ## Quickstart ##
 
 Fetching dependencies and running locally:
