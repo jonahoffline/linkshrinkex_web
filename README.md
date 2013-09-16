@@ -35,3 +35,7 @@ Enjoy!
 Fork this repo
 
 Create a Pull Request :)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonahoffline/linkshrinkex_web/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
